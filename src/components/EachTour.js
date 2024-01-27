@@ -27,7 +27,7 @@ const EachTour = ({tour,filterTours}) => {
         >
           Not Interested
         </button>
-        <button className="absolute top-0 right-0 px-4 py-[0.4rem] bg-[#10b981] font-semibold text-white text-[17px] tracking-wider">
+        <button className="absolute top-0 right-0 px-4 py-1 bg-[#10b981] font-semibold text-white text-[17px] tracking-wider">
           ${price}
         </button>
       </div>
