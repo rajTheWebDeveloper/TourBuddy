@@ -6,7 +6,7 @@ const Tours = () => {
     let [tourData,setTourData]=useState([])
     let [loading,setLoading]=useState(true)
 
-    let url = "https://course-api.com/react-tours-project";
+    let url = "https://www.course-api.com/react-tours-project";
     let fetchData=async (url)=>
     {
         let response=await fetch(url)

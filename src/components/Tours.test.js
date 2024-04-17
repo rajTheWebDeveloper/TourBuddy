@@ -41,8 +41,6 @@ test("Test read more is expanding text",async ()=>
     let afterClickContentLength=await findAllByRole('info')
     expect(afterClickContentLength[0].textContent.length).toBeGreaterThan(200)
 
-
-
     // for(let button of expandContracts)
     // {
     //     fireEvent.click(button)

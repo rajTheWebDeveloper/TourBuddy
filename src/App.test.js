@@ -1,8 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-import { TextEncoder } from "text-encoding";
-
 
 test.skip('renders learn react link', () => {
   render(<App />);
